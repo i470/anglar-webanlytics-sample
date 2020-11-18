@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/site/{siteId}",
+            "lambdaFunction": "ngxadmin3792cb5b",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/site/*"
+        }
+    ],
+    "resourceName": "analyticsApi",
+    "apiName": "analyticsApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "ngxadmin3792cb5b"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-ngxadmin-dev-181807-authRole",
+        "unAuthRoleName": "amplify-ngxadmin-dev-181807-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "ngxadmin3792cb5b",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

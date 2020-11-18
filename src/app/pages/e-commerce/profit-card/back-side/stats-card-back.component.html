@@ -1,0 +1,19 @@
+<nb-card-header>
+  <i class="person"></i>
+  <span class="title">Unique Visitors</span>
+</nb-card-header>
+<nb-card-body>
+  <div class="info">
+    <div class="period">
+      <div class="caption">Last Month</div>
+      <div class="label">
+        <span class="currency"></span>25,275 </div>
+    </div>
+    <div class="period latest">
+      <div class="caption">This Month</div>
+      <div class="label">
+        <span class="currency"></span>48,421</div>
+    </div>
+  </div>
+  <ngx-stats-ares-chart [points]="chartData"></ngx-stats-ares-chart>
+</nb-card-body>

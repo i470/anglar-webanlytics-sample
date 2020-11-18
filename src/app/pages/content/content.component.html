@@ -1,0 +1,35 @@
+<nb-card>
+    <nb-card-header >
+        <nb-icon icon="star" status="info"></nb-icon>
+        <span>API URL</span>
+        <a href="https://hvdkxs7ewd.execute-api.us-east-1.amazonaws.com/dev/site/1/" target="_blank">https://hvdkxs7ewd.execute-api.us-east-1.amazonaws.com/dev/site/1/</a>
+    </nb-card-header>
+</nb-card>
+<nb-card>
+
+    <nb-card-header>
+       Top Visted Pages
+    </nb-card-header>
+  
+<nb-card-body>
+    <table>
+  <tr>
+    <th style="margin: 5px;">URL</th>
+    <th style="margin: 5px;">Page Views</th>
+    <th>Avg Time on page</th>
+  </tr>
+  <ng-container>
+    
+        <tr *ngFor="let d of data$"style="height: 35px;">
+            <td style="min-width:600px;">{{d.url}}</td>
+            <td style="min-width:150px;"><div class="value">{{ d.views }}</div></td>
+            <td> <div class="delta value" [class.up]="d.deltaUp" [class.down]="!d.deltaUp">
+                <nb-icon [icon]="d.deltaUp ? 'arrow-up' : 'arrow-down'" pack="eva"></nb-icon>
+                {{ d.time }}
+              </div></td>
+        </tr>
+    
+</ng-container> 
+      </table>
+        </nb-card-body>
+    </nb-card>

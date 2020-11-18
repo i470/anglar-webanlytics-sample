@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ngxadmin-dev-181807-authRole",
+      "UnauthRoleArn": "arn:aws:iam::322168498117:role/amplify-ngxadmin-dev-181807-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::322168498117:role/amplify-ngxadmin-dev-181807-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ngxadmin-dev-181807-deployment",
+      "UnauthRoleName": "amplify-ngxadmin-dev-181807-unauthRole",
+      "StackName": "amplify-ngxadmin-dev-181807",
+      "StackId": "arn:aws:cloudformation:us-east-1:322168498117:stack/amplify-ngxadmin-dev-181807/8b1bd4e0-2933-11eb-a1b2-1263ebc1f863",
+      "AmplifyAppId": "dqdepz8wdbaiu"
+    }
+  }
+}
